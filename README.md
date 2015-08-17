@@ -1,7 +1,7 @@
 # brettle:workaround-issue-4331
 
-Workaround meteor/meteor#4331 so that all of the client-side callbacks registed
-with `Accounts.onLogin()` and `Accounts.onLoginFailure` are called.
+Workaround [Meteor issue #4331](https://github.com/meteor/meteor/issues/4331) so that all of the client-side callbacks registed
+with `Accounts.onLogin()` and `Accounts.onLoginFailure()` are called.
 
 ## Installation
 
