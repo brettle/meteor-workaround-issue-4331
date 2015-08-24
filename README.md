@@ -1,6 +1,6 @@
 # brettle:workaround-issue-4331
 
-[![Build Status](https://travis-ci.org/brettle/meteor-accounts-workaround-issue-4331.svg?branch=master)](https://travis-ci.org/brettle/meteor-accounts-workaround-issue-4331)
+[![Build Status](https://travis-ci.org/brettle/meteor-workaround-issue-4331.svg?branch=master)](https://travis-ci.org/brettle/meteor-workaround-issue-4331)
 
 Workaround [Meteor issue #4331](https://github.com/meteor/meteor/issues/4331) so
 that Meteor calls *all* client-side callbacks registered with
