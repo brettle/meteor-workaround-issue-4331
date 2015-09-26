@@ -2,7 +2,7 @@
 
 Package.describe({
   name: 'brettle:workaround-issue-4331',
-  version: '0.0.3',
+  version: '0.0.4',
   summary:
     'Workaround Meteor issue 4331 - Only first client onLogin callback called',
   git: 'https://github.com/brettle/meteor-workaround-issue-4331.git',
@@ -20,6 +20,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
+  api.use('random');
   api.use('brettle:accounts-testing-support');
   api.use('brettle:workaround-issue-4331');
   api.addFiles('workaround-issue-4331-tests.js', 'client');
